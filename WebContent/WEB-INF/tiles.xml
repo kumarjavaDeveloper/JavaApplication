@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="index.home" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/home/index.jsp"></put-attribute>
+	</definition>
+	<definition name="index.aboutUs" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/aboutUs/index.jsp"></put-attribute>
+	</definition>
+	<definition name="product.list" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/product/list.jsp"></put-attribute>
+	</definition>
+	<definition name="product.special" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/product/special.jsp"></put-attribute>
+	</definition>
+	<definition name="account.myaccount" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/account/myaccount.jsp"></put-attribute>
+	</definition>
+	<definition name="account.register" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/account/register.jsp"></put-attribute>
+	</definition>
+	<definition name="contact.index" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/contact/index.jsp"></put-attribute>
+	</definition>
+	<definition name="cart.index" template="/WEB-INF/jsp/templates/templateUser.jsp">
+		<put-attribute name="content" value="/WEB-INF/jsp/cart/index.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>
